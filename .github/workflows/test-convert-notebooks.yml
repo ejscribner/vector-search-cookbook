@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ejscribner/couchbase-tutorials
-          ssh-key: ${{ secrets.SSH_DEPLOY_KEY }}
+          ssh-key: ${{ secrets.TUTORIAL_SSH_KEY }}
           path: couchbase-tutorials
 
       - name: Copy converted files
