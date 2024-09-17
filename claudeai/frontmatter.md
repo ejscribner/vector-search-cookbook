@@ -1,19 +1,19 @@
 ---
 # frontmatter
-path: "/tutorial-claude"
-title: Claude
-short_title: Claude
+path: "/tutorial-rag-claude"
+title: RAG with Couchbase and Claude
+short_title: RAG with Claude
 description: 
-  - Learn how to use Couchbase and Azure OpenAI to build a Retrieval-Augmented Generation (RAG) system.
-  - This tutorial demonstrates how to integrate OpenAI's GPT-4 with Couchbase to build a RAG system.
-  - The system uses Couchbase to store documents and embeddings, and Azure OpenAI to generate contextually relevant answers.
+  - Learn how to use Couchbase, Claude, and several additional libraries to build a Retrieval-Augmented Generation (RAG) system.
+  - This tutorial demonstrates how to build a semantic search engine that uses Claude to generate contextually relevant answers.
+  - The system uses Couchbase to store documents and embeddings, OpenAI to generate embeddings, and Claude to generate contextually relevant answers.
 content_type: quickstart
 filter: sdk
 technology:
-  - connectors
+  - vector search
 tags:
-  - RAG
-  - AI
+  - LangChain
+  - OpenAI
 sdk_language: 
   - python
 length: 30 Mins
