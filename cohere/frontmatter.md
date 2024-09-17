@@ -1,20 +1,20 @@
 ---
 # frontmatter
-path: "/tutorial-cohere"
-title: Cohere
-short_title: Cohere
-description: 
-  - Learn how to use Couchbase and Azure OpenAI to build a Retrieval-Augmented Generation (RAG) system.
-  - This tutorial demonstrates how to integrate OpenAI's GPT-4 with Couchbase to build a RAG system.
-  - The system uses Couchbase to store documents and embeddings, and Azure OpenAI to generate contextually relevant answers.
+path: "/tutorial-rag-cohere"
+title: RAG with Couchbase and Cohere
+short_title: RAG with Cohere
+description:
+  - Learn how to use Couchbase, Cohere, and several additional libraries to build a Retrieval-Augmented Generation (RAG) system.
+  - This tutorial demonstrates how to build a semantic search engine that uses Claude to generate contextually relevant answers.
+  - The system uses Couchbase to store documents and embeddings, OpenAI to generate embeddings, and Claude to generate contextually relevant answers.
 content_type: quickstart
 filter: sdk
 technology:
-  - connectors
+  - vector search
 tags:
-  - RAG
-  - AI
-sdk_language: 
+  - LangChain
+  - OpenAI
+sdk_language:
   - python
 length: 30 Mins
 ---
