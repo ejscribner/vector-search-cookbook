@@ -1,20 +1,21 @@
 ---
 # frontmatter
-path: "/tutorial-rag-cohere"
-title: RAG with Couchbase and Cohere
-short_title: RAG with Cohere
+path: "/tutorial-cohere-couchbase-rag"
+title: Retrieval-Augmented Generation (RAG) with Couchbase and Cohere
+short_title: RAG with Couchbase and Cohere
 description:
-  - Learn how to use Couchbase, Cohere, and several additional libraries to build a Retrieval-Augmented Generation (RAG) system.
-  - This tutorial demonstrates how to build a semantic search engine that uses Claude to generate contextually relevant answers.
-  - The system uses Couchbase to store documents and embeddings, OpenAI to generate embeddings, and Claude to generate contextually relevant answers.
-content_type: quickstart
+  - Learn how to build a semantic search engine using Couchbase and Cohere.
+  - This tutorial demonstrates how to integrate Couchbase's vector search capabilities with Cohere embeddings and language models.
+  - You'll understand how to perform Retrieval-Augmented Generation (RAG) using LangChain and Couchbase.
+content_type: tutorial
 filter: sdk
 technology:
   - vector search
 tags:
+  - Artificial Intelligence
   - LangChain
-  - OpenAI
+  - Cohere
 sdk_language:
   - python
-length: 30 Mins
+length: 60 Mins
 ---
