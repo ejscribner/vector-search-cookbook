@@ -32,7 +32,7 @@ jobs:
       - name: Checkout couchbase-tutorials
         uses: actions/checkout@v4
         with:
-          repository: couchbase-examples/couchbase-tutorials
+          repository: ejscribner/couchbase-tutorials
           ssh-key: ${{ secrets.TUTORIAL_SSH_KEY }}
           path: couchbase-tutorials
 
